@@ -174,6 +174,7 @@ static const struct usb_device_id usbtouch_devices[] = {
 
 #ifdef CONFIG_TOUCHSCREEN_USB_3M
 	{USB_DEVICE(0x0596, 0x0001), .driver_info = DEVTYPE_3M},
+	{USB_DEVICE(0x0457, 0x1057), .driver_info = DEVTYPE_3M},
 #endif
 
 #ifdef CONFIG_TOUCHSCREEN_USB_ITM
